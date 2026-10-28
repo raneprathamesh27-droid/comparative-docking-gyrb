@@ -91,7 +91,7 @@ The project uses molecular visualization software, ligand and protein preparatio
 | AutoDock Vina | Perform molecular docking |
 | ProteinPlus - PoseView | Visualize protein-ligand interactions |
 
-## Methodology: Molecular Docking of Quercetin with DNA Gyrase B
+## 8. Methodology: Molecular Docking of Quercetin with DNA Gyrase B
 
 ### 1. Ligand Retrieval and Preparation
 
@@ -120,6 +120,10 @@ The original protein structure was opened in PyMOL, and the predicted docked lig
 ### 6. Protein–Ligand Interaction Analysis Using ProteinPlus
 
 The combined protein–ligand structure, `4kfg-quercetin_docking.pdb`, was uploaded to the ProteinPlus web server and analysed using PoseView. The resulting two-dimensional interaction diagram was examined to identify hydrogen bonds, hydrophobic contacts, and other potential non-covalent interactions between quercetin and DNA gyrase B. These interactions were considered alongside the docking score to evaluate the predicted binding mode of the ligand.
+
+**Structural Visualization and Protein–Ligand Interactions**
+
+Figure 1. Three-dimensional visualization of the docked quercetin–DNA gyrase B complex. The protein surface is shown in green, while the docked ligand is represented as sticks within the binding pocket. The structure was visualized using PyMOL to illustrate the predicted binding pose of quercetin within DNA gyrase B from Escherichia coli.
 
 ## Results
 
