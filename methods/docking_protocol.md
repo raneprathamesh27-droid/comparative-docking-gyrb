@@ -26,7 +26,7 @@ The exhaustiveness parameter was set to 8 to control the search effort during do
 
 AutoDock Vina was run using the following command:
 
-`vina --receptor 4kfg.pdbqt --ligand quercetin.pdbqt --config config.txt --out output.pdbqt --log log.txt`
+`vina --config config2.txt --log log.txt --out output.pdbqt`
 
 The command specifies the receptor, ligand, configuration file, output poses, and docking log.
 
